@@ -1,0 +1,6 @@
+Problem C:
+This was interesting geometry problem.
+It's very sensitive on choosing value for epsilon. Choosing 1e-8 and 1e-6 made it fail due to time limit exceeded and with eps = 1e-4 my solution passed.
+
+Things to learn:
+- when using comparisons with epsilon involved to branch code, better use smaller value for epsilon(1e-4 or even 1e-3).
